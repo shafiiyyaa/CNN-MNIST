@@ -32,13 +32,17 @@ Dataset yang digunakan adalah MNIST dalam format biner (.idx). Pastikan kamu mem
 **Cara Menjalankan**
 1. **Clone repositori ini:**
 Bash
+```
 git clone https://github.com/username/nama-repositori-kamu.git
 cd nama-repositori-kamu
+```
 
 2. **Siapkan Dataset** : Tempatkan file dataset MNIST di direktori proyek.
 3. **Jalankan Jupyter Notebook**:
 Bash
+```
 jupyter notebook cnn-mnist.ipynb
+```
 Jalankan setiap sel kode di dalam notebook untuk melihat proses pelatihan dan hasil klasifikasi model.
 
 **Hasil** 
