@@ -1,19 +1,31 @@
 **CNN for MNIST Dataset with PyTorch**
+
 Proyek ini merupakan implementasi **Convolutional Neural Network (CNN)** menggunakan **PyTorch** untuk klasifikasi dataset **MNIST**, yaitu dataset angka tulisan tangan (handwritten digits). Model dilatih untuk mengidentifikasi angka dari gambar 0 hingga 9.
 
 **Tentang Proyek**
+
 Tujuan utama dari proyek ini adalah membangun dan melatih model CNN yang efisien dan akurat. Prosesnya mencakup:
+
 - Preprocessing Data: Menggunakan dataset biner IDX dan melakukan normalisasi, serta augmentasi data untuk meningkatkan performa model.
+
 - Arsitektur Model: Membuat arsitektur CNN yang terdiri dari beberapa layer konvolusi, pooling, dan fully connected.
+
 - Training dan Evaluasi: Melatih model dengan data training dan mengukur akurasinya menggunakan data testing.
+
 - Visualisasi: Menampilkan contoh gambar setelah augmentasi, serta plot akurasi dan loss untuk memantau proses pelatihan.
 
 **Persyaratan (Prerequisites)**
+
 Pastikan kamu telah menginstal library Python berikut:
+
 - torch
+
 - torchvision
+
 - numpy
+
 - matplotlib
+
 - tqdm
 
 Kamu bisa menginstalnya menggunakan pip:
